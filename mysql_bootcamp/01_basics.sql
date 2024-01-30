@@ -25,6 +25,7 @@
     
 # Multi-inserts
 -- INSERT INTO tweets (Username, Content, Favorites) 
--- VALUES ('coolguy', 'my first tweet!', 1),
--- 	   ('guitar_queen', 'I love music :)', 10),
--- 	   ('lonely_hart', 'still looking 4 love', 0);
+-- VALUES 
+-- 	('coolguy', 'my first tweet!', 1),
+-- 	('guitar_queen', 'I love music :)', 10),
+-- 	('lonely_hart', 'still looking 4 love', 0);
