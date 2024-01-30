@@ -1,0 +1,6 @@
+-- CREATE TABLE Tweets
+-- (
+-- Username VARCHAR(15),
+-- Content VARCHAR(140),
+-- Favorites INT
+--  );
