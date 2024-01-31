@@ -55,3 +55,15 @@
 -- INSERT INTO cats4(name, age) VALUES (NULL, NULL);	//cannot be null
 
 # Primary key
+-- CREATE TABLE unique_cats (
+-- cat_id INT AUTO_INCREMENT PRIMARY KEY,
+-- name VARCHAR(100) NOT NULL,
+-- age INT NOT NULL
+-- );
+
+-- CREATE TABLE unique_cats (
+-- cat_id INT AUTO_INCREMENT,
+-- name VARCHAR(100) NOT NULL,
+-- age INT NOT NULL,
+-- PRIMARY KEY(cat_id)
+-- );
