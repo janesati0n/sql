@@ -45,3 +45,13 @@
 -- age INT DEFAULT 99
 -- );
 
+# THIS IS NOT REDUNDANT
+-- CREATE TABLE cats4 (
+-- name VARCHAR(100) NOT NULL DEFAULT 'unnamed',
+-- age INT NOT NULL DEFAULT 99
+-- );
+
+-- INSERT INTO cats3(name, age) VALUES (NULL, NULL);	//does work
+-- INSERT INTO cats4(name, age) VALUES (NULL, NULL);	//cannot be null
+
+# Primary key
