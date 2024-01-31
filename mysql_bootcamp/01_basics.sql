@@ -20,6 +20,9 @@
 -- DROP TABLE cats;
 
 # Inserting into table
+-- INSERT INTO cats (name, age) 
+-- VALUES ('Blue Steele', 5);
+
 -- INSERT INTO cats (name, age) VALUES ('Jenkins', 7);
 -- SELECT * FROM cats;
     
@@ -29,3 +32,16 @@
 -- 	('coolguy', 'my first tweet!', 1),
 -- 	('guitar_queen', 'I love music :)', 10),
 -- 	('lonely_hart', 'still looking 4 love', 0);
+
+# Not Null
+-- CREATE TABLE cats2 (
+-- name VARCHAR(100) NOT NULL,
+-- age INT NOT NULL
+-- );
+
+# Default values
+-- CREATE TABLE cats3 (
+-- name VARCHAR(100) DEFAULT 'unnamed',
+-- age INT DEFAULT 99
+-- );
+
