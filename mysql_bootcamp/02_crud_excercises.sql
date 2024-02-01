@@ -31,3 +31,8 @@
 
 -- SELECT * FROM shirts WHERE last_worn=15;
 -- UPDATE shirts SET last_worn=0 WHERE last_worn=15;
+-- SELECT * FROM shirts WHERE last_worn=0;
+
+-- SELECT * FROM shirts WHERE color='white';
+-- UPDATE shirts SET color='off white' WHERE color='white';
+-- SELECT * FROM shirts WHERE color='off white'
