@@ -31,10 +31,12 @@
 -- UPDATE employees SET current_status='laid-off', last_name='who_cares';
 
 # Excercise
+-- SELECT * FROM cats WHERE name='Jackson';
 -- UPDATE cats SET name='Jack' WHERE name='Jackson';
+-- SELECT * FROM cats WHERE name='Ringo';
 -- UPDATE cats SET breed='British Shorthair' WHERE name='Ringo';
+-- SELECT * FROM cats WHERE breed='Maine Coon';
 -- UPDATE cats set age=12 WHERE breed='Maine Coon';
--- SELECT * FROM cats;
 
 # DELETE
 -- SELECT * FROM cats WHERE name='Egg';
