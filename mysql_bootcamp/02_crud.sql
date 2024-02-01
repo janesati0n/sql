@@ -36,3 +36,14 @@
 -- UPDATE cats set age=12 WHERE breed='Maine Coon';
 -- SELECT * FROM cats;
 
+# DELETE
+-- SELECT * FROM cats WHERE name='Egg';
+-- DELETE FROM cats WHERE name='Egg';
+
+# Excercise
+-- SELECT * FROM cats WHERE age=4;
+-- DELETE FROM cats WHERE age=4;
+-- SELECT * FROM cats WHERE age=cat_id;
+-- DELETE FROM cats WHERE age=cat_id;
+-- SELECT * FROM cats;
+-- DELETE FROM cats;
