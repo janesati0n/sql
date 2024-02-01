@@ -1,6 +1,6 @@
 # CRUD Challenge 'Spring Cleaning'
--- CREATE DATABASE shirt_db;
--- USE shirt_db;
+-- CREATE DATABASE shirts_db;
+-- USE shirts_db;
 -- CREATE TABLE shirts (
 -- 	shirt_id INT AUTO_INCREMENT PRIMARY KEY,
 -- 	article VARCHAR(50),
