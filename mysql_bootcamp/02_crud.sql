@@ -1,4 +1,4 @@
-# Preparation
+# CREATE
 -- DROP TABLE cats;
 -- CREATE TABLE cats (
 -- 	cat_id INT AUTO_INCREMENT,
@@ -24,3 +24,15 @@
 -- SELECT cat_id, age FROM cats WHERE cat_id=age;
 
 # Aliases
+-- SELECT cat_id AS id, name FROM cats;
+
+# UPDATE
+-- UPDATE employees SET last_name='roosterbeard' WHERE employee_id=1;
+-- UPDATE employees SET current_status='laid-off', last_name='who_cares';
+
+# Excercise
+-- UPDATE cats SET name='Jack' WHERE name='Jackson';
+-- UPDATE cats SET breed='British Shorthair' WHERE name='Ringo';
+-- UPDATE cats set age=12 WHERE breed='Maine Coon';
+-- SELECT * FROM cats;
+
