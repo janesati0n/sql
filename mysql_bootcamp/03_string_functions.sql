@@ -1,1 +1,3 @@
-
+-- CREATE DATABASE book_shop;
+-- USE book_shop;
+-- source 03_book_data.sql
