@@ -3,8 +3,8 @@
 -- source 03_book_data.sql
 
 # CONCAT
--- SELECT CONCAT (author_fname, ' ', author_lname) AS author_name FROM books;
--- SELECT CONCAT_WS ('-', title, author_fname, author_lname) FROM books;
+-- SELECT CONCAT(author_fname, ' ', author_lname) AS author_name FROM books;
+-- SELECT CONCAT_WS('-', title, author_fname, author_lname) FROM books;
 
 # SUBSTRING
 -- SELECT SUBSTRING('Hello World', 1, 5);
