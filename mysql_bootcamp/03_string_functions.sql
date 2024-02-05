@@ -72,7 +72,7 @@
 
 # Excercise
 -- SELECT REVERSE(UPPER('Why does my cat look at me with such hatred?'));
--- SELECT REPLACE(title, ' ', '->') from books;
+-- SELECT REPLACE(title, ' ', '->') AS title from books;
 -- SELECT author_lname AS forwards, REVERSE(author_lname) AS backwards FROM books;
 -- SELECT UPPER(CONCAT(author_fname, ' ', author_lname)) AS 'full name in caps' FROM books;
 -- SELECT CONCAT(title, ' was released in ', released_year) AS blurb FROM books;
