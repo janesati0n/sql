@@ -42,3 +42,10 @@
 -- SELECT REVERSE(NULL);
 -- SELECT REVERSE(author_fname) FROM books;
 -- SELECT CONCAT(author_fname, REVERSE(author_fname)) FROM books;
+
+# CHAR_LENGTH
+-- SELECT CHAR_LENGTH('海豚');	-- pocet znakov
+-- SELECT LENGTH('海豚');		-- velkost v byte
+-- SELECT CHAR_LENGTH(title) AS length, title FROM books;
+-- SELECT CONCAT(author_lname, ' is ', CHAR_LENGTH(author_lname), ' characters long') FROM books;
+
