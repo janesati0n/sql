@@ -33,3 +33,8 @@
 -- SELECT title, author_fname, author_lname FROM books WHERE author_fname LIKE '%da%';
 -- SELECT title, author_fname, author_lname FROM books WHERE author_fname LIKE '_a_';
 -- SELECT title, author_fname, author_lname FROM books WHERE author_fname LIKE '%n';
+
+# Escaping Wildcards
+-- SELECT title, author_fname, author_lname FROM books WHERE title like '%\%%'
+-- SELECT title, author_fname, author_lname FROM books WHERE title like '%\_%'
+
