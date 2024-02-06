@@ -27,3 +27,9 @@
 -- SELECT book_id, title, released_year FROM books ORDER BY released_year DESC LIMIT 10;
 -- SELECT book_id, title, released_year FROM books ORDER BY released_year DESC LIMIT 0,10;
 -- SELECT book_id, title, released_year FROM books ORDER BY released_year DESC LIMIT 3,2;
+
+# LIKE
+-- SELECT title, author_fname, author_lname FROM books WHERE author_fname='David';
+-- SELECT title, author_fname, author_lname FROM books WHERE author_fname LIKE '%da%';
+-- SELECT title, author_fname, author_lname FROM books WHERE author_fname LIKE '_a_';
+-- SELECT title, author_fname, author_lname FROM books WHERE author_fname LIKE '%n';
