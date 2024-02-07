@@ -9,3 +9,8 @@
 -- SELECT released_year, COUNT(*) FROM books GROUP BY released_year;
 
 # MIN and MAX
+-- SELECT MIN(released_year) FROM books;
+-- SELECT MAX(pages) FROM books;
+-- SELECT MIN(author_lname), MAX(author_lname) FROM books;
+
+# Subqueries
