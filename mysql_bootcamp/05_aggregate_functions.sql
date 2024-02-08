@@ -19,3 +19,8 @@
 
 -- SELECT title, released_year FROM books 
 -- WHERE released_year = (SELECT MIN(released_year) FROM books);
+
+# Grouping by Multiple Columns
+-- SELECT author_fname, author_lname, COUNT(*) FROM books GROUP BY author_lname, author_fname;
+-- SELECT CONCAT(author_fname, ' ', author_lname) AS author FROM books GROUP BY author;
+
