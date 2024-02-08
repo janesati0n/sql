@@ -33,3 +33,6 @@
 -- 	MAX(released_year) AS latest_release, 
 --     MAX(pages) AS longest_book
 -- FROM books GROUP BY author_lname, author_fname;
+
+# SUM
+-- SELECT author_lname, SUM(pages) FROM books GROUP BY author_lname;
