@@ -43,3 +43,15 @@
 -- 	AVG(stock_quantity), 
 -- 	COUNT(*) 
 -- FROM books GROUP BY released_year;
+
+# Excercise
+-- SELECT COUNT(*) FROM books;
+-- SELECT released_year, COUNT(released_year) FROM books GROUP BY released_year;
+-- SELECT SUM(stock_quantity) FROM books;
+-- SELECT author_fname, author_lname, AVG(released_year) FROM books GROUP BY author_lname, author_fname;
+-- SELECT author_fname, author_lname, pages FROM books WHERE pages = (SELECT MAX(pages) FROM books);
+-- SELECT 
+-- 	released_year AS 'year', 
+-- 	COUNT(released_year) AS '\# books', 
+-- 	AVG(pages) 
+-- FROM books GROUP BY year ORDER BY year;
