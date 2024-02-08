@@ -36,3 +36,10 @@
 
 # SUM
 -- SELECT author_lname, SUM(pages) FROM books GROUP BY author_lname;
+
+# AVG
+-- SELECT 
+-- 	released_year, 
+-- 	AVG(stock_quantity), 
+-- 	COUNT(*) 
+-- FROM books GROUP BY released_year;
