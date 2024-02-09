@@ -6,7 +6,7 @@
 -- INSERT INTO states (abbr) VALUES ('CA'), ('NY');		//faster for fixed length text
 
 # INT, TINYINT, BIGINT
--- TINYINT <-128 ... 127>			1 byte
+-- TINYINT <-128 ... 127>		1 byte
 -- SMALLINT <-32768 ... 32767>		2 bytes
 -- MEDIUMINT <-8388608 ... 8388607>	3 bytes
 -- INT <-2147483648 ... 2147483647>	4 bytes
