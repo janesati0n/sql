@@ -19,3 +19,7 @@
 -- BIGINT UNSIGNED <0 ... 2^64-1>	8 bytes
 
 # DECIMAL
+-- DECIMAL(5,2) //(total num of digits, digits after decimal) = 999.99
+
+# FLOAT and DOUBLE
+
