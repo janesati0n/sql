@@ -22,4 +22,6 @@
 -- DECIMAL(5,2) //(total num of digits, digits after decimal) = 999.99
 
 # FLOAT and DOUBLE
-
+-- DECIMAL (most precise, most storage)
+-- FLOAT (cca 7digits, 4bytes)
+-- DOUBLE (cca 15 digits, 8bytes)
