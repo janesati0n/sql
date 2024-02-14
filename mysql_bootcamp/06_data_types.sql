@@ -25,3 +25,10 @@
 -- DECIMAL (most precise, most storage)
 -- FLOAT (cca 7digits, 4bytes)
 -- DOUBLE (cca 15 digits, 8bytes)
+
+# DATE and TIME
+-- DATE (YYYY-MM-DD)
+-- TIME (HH:MM:SS)
+-- DATETIME (YYYY-MM-DD HH:MM:SS)
+
+# Excercise
