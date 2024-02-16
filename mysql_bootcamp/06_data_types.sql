@@ -49,3 +49,9 @@
 # CURDATE, CURTIME and NOW
 -- INSERT INTO people (name, birthdate, birthtime, birthdt)
 -- 	VALUES ('Hazel', CURDATE(), CURTIME(), NOW());
+
+# Date Functions
+-- SELECT birthdate, DAY(birthdate), DAYOFWEEK(birthdate), DAYOFYEAR(birthdate) FROM people;
+-- SELECT name, birthdate, MONTHNAME(birthdate), YEAR(birthdate) FROM people;
+
+# Time Functions
