@@ -45,3 +45,7 @@
 -- 	('Lulu', '1985-04-11', '9:45:10', '1985-04-11 9:45:10'),
 -- 	('Juan', '2020-08-15', '23:59:00', '2020-08-15 23:59:00');
 
+
+# CURDATE, CURTIME and NOW
+-- INSERT INTO people (name, birthdate, birthtime, birthdt)
+-- 	VALUES ('Hazel', CURDATE(), CURTIME(), NOW());
