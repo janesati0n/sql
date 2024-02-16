@@ -57,3 +57,9 @@
 # Time Functions
 -- SELECT name, birthtime, HOUR(birthtime), MINUTE(birthtime), SECOND(birthtime) FROM people;
 -- SELECT birthdt, TIME(birthdt), DATE(birthdt) FROM people;
+
+# Formating Dates
+-- SELECT CONCAT(MONTHNAME(birthdate), ' ', DAY(birthdate),  ' ', YEAR(birthdate)) as date FROM people;
+-- SELECT birthdate, DATE_FORMAT(birthdate, '%a, %b, %D') FROM people;
+-- SELECT birthdt, TIME_FORMAT(birthdt, 'BORN ON %r') FROM people;
+
