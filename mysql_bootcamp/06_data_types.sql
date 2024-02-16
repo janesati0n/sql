@@ -55,3 +55,5 @@
 -- SELECT name, birthdate, MONTHNAME(birthdate), YEAR(birthdate) FROM people;
 
 # Time Functions
+-- SELECT name, birthtime, HOUR(birthtime), MINUTE(birthtime), SECOND(birthtime) FROM people;
+-- SELECT birthdt, TIME(birthdt), DATE(birthdt) FROM people;
