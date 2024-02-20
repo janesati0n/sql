@@ -70,5 +70,5 @@
 -- SELECT birthdate, DATE_ADD(birthdate, INTERVAL 18 YEAR) FROM people;
 -- SELECT TIMEDIFF(CURTIME(), '7:00:00');
 -- SELECT NOW() - INTERVAL 18 YEAR;
--- SELECT name, birthdate, birthdate + INTERVAL 21 YEAR FROM people;
+-- SELECT name, birthdate, YEAR(birthdate + INTERVAL 21 YEAR) AS will_be_21 FROM people;
 
