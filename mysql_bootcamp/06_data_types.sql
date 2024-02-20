@@ -87,3 +87,6 @@
 --     updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 -- );
 
+-- INSERT INTO captions2 (text) VALUES ('i love life!');
+-- UPDATE captions2 SET text='i love life!!!';
+-- UPDATE captions2 SET text='i love life!!!!!!';
