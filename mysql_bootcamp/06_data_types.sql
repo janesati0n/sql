@@ -72,3 +72,11 @@
 -- SELECT NOW() - INTERVAL 18 YEAR;
 -- SELECT name, birthdate, YEAR(birthdate + INTERVAL 21 YEAR) AS will_be_21 FROM people;
 
+# TIMESTAMPS
+-- CREATE TABLE captions (
+-- 	text VARCHAR(150),
+-- 	created_at TIMESTAMP default CURRENT_TIMESTAMP
+-- );
+
+-- INSERT INTO captions (text) VALUES ('just me and the girls chillin');
+-- INSERT INTO captions (text) VALUES ('beautiful sunset');
