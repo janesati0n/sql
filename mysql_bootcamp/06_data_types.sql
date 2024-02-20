@@ -100,13 +100,13 @@
 
 -- SELECT CURRENT_TIME();
 -- SELECT CURRENT_DATE();
--- SELECT DATE_FORMAT(CURDATE, '%c');
--- SELECT DATE_FORMAT(CURDATE, '%a');
--- SELECT DATE_FORMAT(CURDATE, '%m/%d/%Y');
--- SELECT DATE_FORMAT(CURTIME(), '%M %D at %l:%i');
+-- SELECT DAYOFWEEK(NOW());
+-- SELECT DAYNAME(NOW());
+-- SELECT DATE_FORMAT(CURDATE(), '%m/%d/%Y');
+-- SELECT DATE_FORMAT(CURTIME(), '%M %D at %k:%i');
 
 -- CREATE TABLE tweets (
 -- 	text VARCHAR(140),
 -- 	username VARCHAR(20),
--- 	created_at TIMESTAMP default CURRENT_TIMESTAMP
+-- 	created_at TIMESTAMP default NOW()
 -- );
