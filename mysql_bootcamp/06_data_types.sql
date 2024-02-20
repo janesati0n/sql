@@ -90,3 +90,24 @@
 -- INSERT INTO captions2 (text) VALUES ('i love life!');
 -- UPDATE captions2 SET text='i love life!!!';
 -- UPDATE captions2 SET text='i love life!!!!!!';
+
+# Excercise
+-- CREATE TABLE inventory (
+-- item_name VARCHAR(150),
+-- price MEDIUMINT,
+-- quantity TINYINT
+-- );
+
+-- SELECT CURRENT_TIME();
+-- SELECT CURRENT_DATE();
+-- SELECT DATE_FORMAT(CURDATE, '%c');
+-- SELECT DATE_FORMAT(CURDATE, '%a');
+-- SELECT DATE_FORMAT(CURDATE, '%m/%d/%Y');
+-- SELECT DATE_FORMAT(CURDATE, '%m/%d/%Y');
+-- SELECT DATE_FORMAT(CURTIME(), '%M %D at %l:%i');
+
+-- CREATE TABLE tweets (
+-- 	text VARCHAR(150),
+-- 	username VARCHAR(20),
+-- 	created_at TIMESTAMP default CURRENT_TIMESTAMP
+-- );
