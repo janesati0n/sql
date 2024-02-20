@@ -103,11 +103,10 @@
 -- SELECT DATE_FORMAT(CURDATE, '%c');
 -- SELECT DATE_FORMAT(CURDATE, '%a');
 -- SELECT DATE_FORMAT(CURDATE, '%m/%d/%Y');
--- SELECT DATE_FORMAT(CURDATE, '%m/%d/%Y');
 -- SELECT DATE_FORMAT(CURTIME(), '%M %D at %l:%i');
 
 -- CREATE TABLE tweets (
--- 	text VARCHAR(150),
+-- 	text VARCHAR(140),
 -- 	username VARCHAR(20),
 -- 	created_at TIMESTAMP default CURRENT_TIMESTAMP
 -- );
