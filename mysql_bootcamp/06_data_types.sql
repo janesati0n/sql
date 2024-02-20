@@ -63,3 +63,12 @@
 -- SELECT birthdate, DATE_FORMAT(birthdate, '%a, %b, %D') FROM people;
 -- SELECT birthdt, TIME_FORMAT(birthdt, 'BORN ON %r') FROM people;
 
+# Date Math
+-- SELECT DATEDIFF(CURDATE(), birthdate) FROM people;
+-- SELECT DATE_ADD(CURDATE(), INTERVAL 1 YEAR);
+-- SELECT DATE_SUB(CURDATE(), INTERVAL 1 MONTH);
+-- SELECT birthdate, DATE_ADD(birthdate, INTERVAL 18 YEAR) FROM people;
+-- SELECT TIMEDIFF(CURTIME(), '7:00:00');
+-- SELECT NOW() - INTERVAL 18 YEAR;
+-- SELECT name, birthdate, birthdate + INTERVAL 21 YEAR FROM people;
+
