@@ -12,3 +12,8 @@
 -- SELECT title, released_year FROM books WHERE released_year < 2000;
 -- SELECT title, released_year FROM books WHERE released_year >= 2010;
 -- SELECT title, released_year FROM books WHERE released_year <= 1985;
+
+# Logical AND
+-- SELECT * FROM books WHERE author_lname = 'Eggers' AND released_year > 2010;
+-- SELECT * FROM books WHERE author_lname = 'Eggers' && released_year > 2010;
+-- SELECT * FROM books WHERE author_lname = 'Eggers' AND released_year > 2010 AND title LIKE '%novel%';
