@@ -8,3 +8,7 @@
 # Greater Than
 -- SELECT * FROM books WHERE released_year > 2000;
 
+# Less Than or Equal To
+-- SELECT title, released_year FROM books WHERE released_year < 2000;
+-- SELECT title, released_year FROM books WHERE released_year >= 2010;
+-- SELECT title, released_year FROM books WHERE released_year <= 1985;
