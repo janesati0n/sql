@@ -80,8 +80,8 @@
 -- 	CASE
 -- 		WHEN stock_quantity <= 40 THEN '*'
 -- 		WHEN stock_quantity <= 70 THEN '**'
---         WHEN stock_quantity <= 100 THEN '***'
---         WHEN stock_quantity <= 140 THEN '****'
+-- 		WHEN stock_quantity <= 10 THEN '***'
+-- 		WHEN stock_quantity <= 140 THEN '****'
 -- 		ELSE '*****'
 -- 	END AS stock
 -- FROM books;
