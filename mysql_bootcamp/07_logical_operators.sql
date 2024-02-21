@@ -43,3 +43,4 @@
 
 -- SELECT * FROM people WHERE HOUR(birthtime) BETWEEN 12 AND 16;
 
+# The IN Operator
