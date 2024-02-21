@@ -44,3 +44,10 @@
 -- SELECT * FROM people WHERE HOUR(birthtime) BETWEEN 12 AND 16;
 
 # The IN Operator
+-- SELECT title, author_lname FROM books 
+-- 	WHERE author_lname = 'Carver' 
+-- 	OR author_lname = 'Lahiri'
+-- 	OR author_lname = 'Smith';
+    
+-- SELECT title, author_lname FROM books WHERE author_lname IN ('Carver', 'Lahiri', 'Smith');
+-- SELECT title, author_lname FROM books WHERE author_lname NOT IN ('Carver', 'Lahiri', 'Smith');
