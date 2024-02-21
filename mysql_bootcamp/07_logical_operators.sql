@@ -4,3 +4,7 @@
 
 # NOT LIKE
 -- SELECT title FROM books WHERE title NOT LIKE '%e%';
+
+# Greater Than
+-- SELECT * FROM books WHERE released_year > 2000;
+
