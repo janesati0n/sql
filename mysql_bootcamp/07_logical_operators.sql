@@ -59,3 +59,11 @@
 -- SELECT title, released_year FROM books 
 -- 	WHERE released_year >= 2000
 -- 	AND released_year % 2 = 1;
+
+# CASE
+-- SELECT title, released_year, 
+-- 	CASE
+-- 		WHEN released_year >= 2000 THEN 'Modern Lit'
+-- 		ELSE '20th Century Lit'
+-- 	END AS GENRE
+-- FROM books;
