@@ -28,3 +28,13 @@
 -- SELECT title, released_year FROM books WHERE released_year BETWEEN 2004 AND 2015;
 -- SELECT title, pages FROM books WHERE pages BETWEEN 200 AND 300;
 -- SELECT title, pages FROM books WHERE pages NOT BETWEEN 200 AND 300;
+
+# Comparing Dates
+-- SELECT * FROM people WHERE birthdate < '2005-01-01';
+-- SELECT * FROM people WHERE YEAR(birthdate) < 2005;
+-- SELECT * FROM people WHERE HOUR(birthtime) > 12;
+-- SELECT * FROM people WHERE birthtime BETWEEN '12:00:00' AND '16:00:00';
+-- SELECT * FROM people WHERE birthtime 
+-- 	BETWEEN CAST('12:00:00' AS TIME) 
+-- 	AND CAST('16:00:00' AS TIME);
+-- SELECT * FROM people WHERE HOUR(birthtime) BETWEEN 12 AND 16;
