@@ -76,3 +76,12 @@
 -- 	END AS stock
 -- FROM books;
 
+-- SELECT title, stock_quantity,
+-- 	CASE
+-- 		WHEN stock_quantity <= 40 THEN '*'
+-- 		WHEN stock_quantity <= 70 THEN '**'
+--         WHEN stock_quantity <= 100 THEN '***'
+--         WHEN stock_quantity <= 140 THEN '****'
+-- 		ELSE '*****'
+-- 	END AS stock
+-- FROM books;
