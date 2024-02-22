@@ -58,3 +58,23 @@
 
 -- INSERT INTO palindromes2 VALUES ('mom');
 -- INSERT INTO palindromes2 VALUES ('momma');	//Error
+
+# Multiple Column Constraints
+-- CREATE TABLE companies2 (
+-- 	name VARCHAR(255) NOT NULL,
+-- 	address VARCHAR(255) NOT NULL,
+-- 	CONSTRAINT name_address UNIQUE (name, address)
+-- );
+
+-- INSERT INTO companies2 (name, address) VALUES ('blackbird auto', '123 spruce');
+-- INSERT INTO companies2 (name, address) VALUES ('luigis pies', '123 spruce');
+-- INSERT INTO companies2 (name, address) VALUES ('luigis pies', '123 spruce');	/Error
+
+-- CREATE TABLE houses (
+-- 	purchase_price INT NOT NULL,
+-- 	sale_price INT NOT NULL,
+-- 	CONSTRAINT sale_gt_purchase CHECK(sale_price >= purchase_price)
+-- );
+
+-- INSERT INTO houses (purchase_price, sale_price) VALUES (100, 200);
+-- INSERT INTO houses (purchase_price, sale_price) VALUES (300, 250);	//Error
