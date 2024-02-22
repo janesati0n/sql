@@ -8,3 +8,9 @@
 -- ALTER TABLE companies DROP COLUMN phone;
 
 # Renaming
+-- RENAME TABLE companies TO suppliers;
+-- ALTER TABLE suppliers RENAME TO companies;
+
+-- ALTER TABLE companies RENAME COLUMN name TO biz_name;
+
+# Modifying Columns
