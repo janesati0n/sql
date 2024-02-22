@@ -28,4 +28,4 @@
 -- INSERT INTO houses (purchase_price, sale_price) VALUES (-1, 4);		//Working now
 
 -- ALTER TABLE houses DROP CONSTRAINT sale_gt_purchase;
--- INSERT INTO houses (purchase_price, sale_price) VALUES (800, 400);	  //Working now
+-- INSERT INTO houses (purchase_price, sale_price) VALUES (800, 400);  //Working now
