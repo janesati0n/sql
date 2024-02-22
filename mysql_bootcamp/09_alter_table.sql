@@ -14,3 +14,8 @@
 -- ALTER TABLE companies RENAME COLUMN name TO biz_name;
 
 # Modifying Columns
+-- ALTER TABLE companies MODIFY biz_name VARCHAR(100) DEFAULT 'unknown';
+-- INSERT INTO companies (address) VALUES ('2554 rose lane');
+
+-- ALTER TABLE companies 
+-- CHANGE biz_name company_name VARCHAR(50) DEFAULT 'unknown';
