@@ -19,3 +19,13 @@
 
 -- ALTER TABLE companies 
 -- CHANGE biz_name company_name VARCHAR(50) DEFAULT 'unknown';
+
+# Constraints
+-- ALTER TABLE houses ADD CONSTRAINT positive_purchase CHECK (purchase_price >= 0);
+-- INSERT INTO houses (purchase_price, sale_price) VALUES (-1, 4);		//Error
+
+-- ALTER TABLE houses DROP CONSTRAINT positive_purchase;
+-- INSERT INTO houses (purchase_price, sale_price) VALUES (-1, 4);		//Working now
+
+-- ALTER TABLE houses DROP CONSTRAINT sale_gt_purchase;
+-- INSERT INTO houses (purchase_price, sale_price) VALUES (800, 400);	//Working now
