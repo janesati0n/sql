@@ -29,3 +29,9 @@
 --        ('1999-04-11', 450.25, 5);
 
 # Cross Joins
+-- SELECT * FROM orders 
+-- WHERE customer_id = (SELECT id FROM customers WHERE last_name = 'George');
+
+-- SELECT * FROM customers, orders;		//Not really helpful
+
+# Inner Joins
