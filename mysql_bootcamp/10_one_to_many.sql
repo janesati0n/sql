@@ -61,3 +61,8 @@
 -- SELECT first_name, last_name, IFNULL(SUM(amount), 0) AS money_spent FROM customers
 -- LEFT JOIN orders ON customers.id = orders.customer_id
 -- GROUP BY first_name, last_name;
+
+# Right Join
+-- INSERT INTO orders (amount, order_date) VALUES (100, CURDATE());
+-- SELECT first_name, last_name, order_date, amount FROM customers
+-- RIGHT JOIN orders ON customers.id = orders.customer_id;
