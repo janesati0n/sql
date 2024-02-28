@@ -25,9 +25,9 @@
 -- SELECT title AS unreviewed_series FROM reviews
 -- RIGHT JOIN series ON reviews.series_id = series.id 
 -- WHERE rating IS NULL;
-
+  
 # TV Series Challenge 5
--- SELECT genre, AVG(rating) AS avg_rating FROM series
+-- SELECT genre, ROUND(AVG(rating), 2) AS avg_rating FROM series
 -- JOIN reviews ON series.id = reviews.series_id
 -- GROUP BY genre;
 
