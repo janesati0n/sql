@@ -20,6 +20,6 @@
 # TV Series Challenge 4
 -- SELECT title AS unreviewed_series FROM series
 -- LEFT JOIN reviews ON series.id = reviews.series_id
--- WHERE ISNULL(rating);
+-- WHERE rating IS NULL;
 
 # TV Series Challenge 5
