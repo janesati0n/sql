@@ -25,7 +25,7 @@
 -- SELECT title AS unreviewed_series FROM reviews
 -- RIGHT JOIN series ON reviews.series_id = series.id 
 -- WHERE rating IS NULL;
-  
+
 # TV Series Challenge 5
 -- SELECT genre, ROUND(AVG(rating), 2) AS avg_rating FROM series
 -- JOIN reviews ON series.id = reviews.series_id
@@ -41,7 +41,7 @@
 -- 	ROUND(IFNULL(AVG(rating), 0), 2) AS AVG, 
 -- 	CASE
 -- 		WHEN COUNT(rating) >= 10 THEN 'POWERUSER'
---         WHEN COUNT(rating) >= 0 THEN 'ACTIVE'
+--         WHEN COUNT(rating) > 0 THEN 'ACTIVE'
 -- 		ELSE 'INACTIVE'
 --     END AS STATUS
 -- FROM reviewers 
