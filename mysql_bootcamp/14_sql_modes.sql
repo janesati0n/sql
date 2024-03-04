@@ -10,3 +10,5 @@
 -- SET SESSION sql_mode = 'STRICT_TRANS_TABLES';
 
 # More Modes
+-- SET SESSION sql_mode = 'ONLY_FULL_GROUP_BY';
+-- SET SESSION sql_mode = 'NO_ZERO_IN_DATE';
