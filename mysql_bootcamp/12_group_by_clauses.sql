@@ -1,1 +1,1 @@
-
+# HAVING clause
