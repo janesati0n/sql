@@ -8,3 +8,12 @@
 -- SELECT genre, AVG(rating) FROM full_reviews GROUP BY genre;
 
 # Updateable Views
+-- CREATE VIEW ordered_series AS
+-- SELECT * FROM series ORDER BY released_year;
+
+-- INSERT INTO ordered_series (title, released_year, genre)
+-- VALUES ('The Great', 2020, 'Comedy');
+
+-- DELETE FROM ordered_series WHERE title = 'The Great';
+
+# Replacing/Altering Views
