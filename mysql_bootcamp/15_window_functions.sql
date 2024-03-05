@@ -32,8 +32,6 @@
 -- ('customer service', 55000);
 
 # Using OVER()
--- SELECT department, AVG(salary) FROM employees GROUP BY department;
-
 -- SELECT 
 -- 	emp_no, 
 -- 	department, 
@@ -43,9 +41,15 @@
 -- FROM employees;
 
 # PARTITION BY
+-- SELECT department, AVG(salary) FROM employees GROUP BY department;
+
 SELECT 
 	emp_no, 
 	department, 
 	salary, 
-	AVG(salary) OVER(PARTITION BY department) AS department_avg 
+	AVG(salary) OVER(PARTITION BY department) AS dept_avg,
+    AVG(salary) OVER() AS company)_avg
+FROM employees;
+
+SELECT emp_no, department, salary, COUNT(*) OVER(PARTITION BY department) as dept_count
 FROM employees;
