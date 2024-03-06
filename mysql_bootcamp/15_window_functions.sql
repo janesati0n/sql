@@ -72,3 +72,9 @@
 -- FROM employees;
 
 # RANK()
+SELECT 
+	emp_no, 
+	department,
+	salary, 
+	RANK() OVER(ORDER BY salary DESC) AS overall_salary_rank
+FROM employees;
