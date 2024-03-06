@@ -98,3 +98,5 @@
 -- 	DENSE_RANK() OVER(ORDER BY salary DESC) AS overall_dense_rank,						//can have tie but doesn't skip number
 -- 	ROW_NUMBER() OVER(ORDER BY salary DESC) AS overall_num
 -- FROM employees ORDER BY department;
+
+# NTILE()
