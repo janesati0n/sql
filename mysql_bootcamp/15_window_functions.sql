@@ -89,11 +89,12 @@
 
 # DENSE_RANK & ROW_NUMBER()
 -- SELECT 
--- 	emp_no, 
--- 	department,
--- 	salary, 
---     ROW_NUMBER() OVER(PARTITION BY department ORDER BY salary DESC) AS dept_row_num,			//rank can have tie, row not 
+-- emp_no, 
+-- department,
+-- salary, 
+-- 	ROW_NUMBER() OVER(PARTITION BY department ORDER BY salary DESC) AS dept_row_num,			//rank can have tie, row not 
 -- 	RANK() OVER(PARTITION BY department ORDER BY salary DESC) AS dept_salary_rank,
 -- 	RANK() OVER(ORDER BY salary DESC) AS overall_salary_rank,
--- 	DENSE_RANK() OVER(ORDER BY salary DESC) AS overall_dense_rank						//can have tie but doesn't skip number
+-- 	DENSE_RANK() OVER(ORDER BY salary DESC) AS overall_dense_rank,						//can have tie but doesn't skip number
+-- 	ROW_NUMBER() OVER(ORDER BY salary DESC) AS overall_num
 -- FROM employees ORDER BY department;
