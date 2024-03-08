@@ -9,7 +9,8 @@
 --     COUNT(*) AS total_users
 -- FROM users
 -- GROUP BY day
--- ORDER BY total_users DESC;
+-- ORDER BY total_users DESC
+-- LIMIT 1;
 
 # IG Challenge 3
 #
