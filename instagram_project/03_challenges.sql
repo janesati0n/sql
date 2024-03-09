@@ -13,4 +13,9 @@
 -- LIMIT 1;
 
 # IG Challenge 3
-#
+# Find users who have never posted a photo
+-- SELECT username FROM users 
+-- LEFT JOIN photos ON user_id = users.id
+-- WHERE image_url IS NULL;
+
+# IG Challenge 4
