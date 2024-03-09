@@ -34,4 +34,8 @@
 
 
 # IG Challenge 5
+# How many times does the average user post?
+-- SELECT (SELECT COUNT(*) FROM photos) / (SELECT COUNT(*) FROM users) AS avg;
+
+# IG Challenge 6
 # 
