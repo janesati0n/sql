@@ -19,3 +19,19 @@
 -- WHERE image_url IS NULL;
 
 # IG Challenge 4
+# Find user with most likes on a single photo
+-- SELECT 
+-- 	users.username,
+--     photos.id, 
+-- 	photos.image_url,
+--     COUNT(*) AS total
+-- FROM photos
+-- JOIN likes ON likes.photo_id = photos.id
+-- JOIN users ON users.id = photos.user_id
+-- GROUP BY photos.id
+-- ORDER BY total DESC
+-- LIMIT 1;
+
+
+# IG Challenge 5
+# 
