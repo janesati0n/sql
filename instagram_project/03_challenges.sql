@@ -43,7 +43,7 @@
 -- JOIN tags ON photo_tags.tag_id = tags.id
 -- GROUP BY tag_id
 -- ORDER BY count DESC
--- LIMIT 1;
+-- LIMIT 5;
 
 # IG Challenge 7
 # 
