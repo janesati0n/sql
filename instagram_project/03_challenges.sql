@@ -46,4 +46,8 @@
 -- LIMIT 5;
 
 # IG Challenge 7
-# 
+# Find users/bots who have liked every single photo
+-- SELECT username, COUNT(*) AS num_likes FROM users
+-- JOIN likes ON users.id = likes.user_id
+-- GROUP BY likes.user_id
+-- HAVING num_likes = (SELECT COUNT(*) FROM photos);
