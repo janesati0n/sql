@@ -38,4 +38,12 @@
 -- SELECT (SELECT COUNT(*) FROM photos) / (SELECT COUNT(*) FROM users) AS avg;
 
 # IG Challenge 6
+# What are the top 5 most used hashtags
+-- SELECT tag_name, COUNT(tag_id) AS count FROM photo_tags
+-- JOIN tags ON photo_tags.tag_id = tags.id
+-- GROUP BY tag_id
+-- ORDER BY count DESC
+-- LIMIT 1;
+
+# IG Challenge 7
 # 
